@@ -1,0 +1,25 @@
+
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello SecurityController!{% endblock %}
+
+{% block body %}
+<div class="example-wrapper">
+    <h1><u> Bienvenue sur le site d'Aurélien ♛ </u></h1>
+</div>
+
+<br> 
+
+<div class="card text-white bg-primary mb-3" style="max-width: 15rem;">
+  <div class="card-header"><B><font color="#ff6700">Login :</font></B></div>
+  <div class="card-body">
+    <h4 class="card-title">{{login}}</h4>
+  </div>
+</div>
+<div class="card text-white bg-danger mb-3" style="max-width: 15rem;">
+  <div class="card-header"><B><font color="#ff6700">Connexion : </font></B></div>
+  <div class="card-body">
+    <h4 class="card-title">{{message}}</h4>     
+  </div>
+</div>
+{% endblock %}
